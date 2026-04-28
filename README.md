@@ -35,15 +35,15 @@ stress-test a multi-asset portfolio using real market data.
 
 ## Project structure
 quant_project/
-│
-├── data_acquisition.py       # Pulls real price data via yfinance
-├── risk_analysis.py          # Log returns, volatility, correlation heatmap
-├── portfolio_optimizer.py    # Efficient Frontier + Markowitz optimization
-├── backtesting.py            # Strategy backtest vs SPY benchmark
-├── performance_metrics.py    # Sharpe, Sortino, Calmar, VaR tearsheet
-├── monte_carlo.py            # 1,000-path Monte Carlo simulation
-├── master_dashboard.py       # Final 6-panel master dashboard
-└── portfolio_prices.csv      # Saved historical price data
+
+data_acquisition.py       # Pulls real price data via yfinance
+risk_analysis.py          # Log returns, volatility, correlation heatmap
+portfolio_optimizer.py    # Efficient Frontier + Markowitz optimization
+backtesting.py            # Strategy backtest vs SPY benchmark
+performance_metrics.py    # Sharpe, Sortino, Calmar, VaR tearsheet
+monte_carlo.py            # 1,000-path Monte Carlo simulation
+master_dashboard.py       # Final 6-panel master dashboard
+portfolio_prices.csv      # Saved historical price data
 
 ---
 
@@ -116,4 +116,4 @@ acquisition through risk management and forward simulation.
 
 ---
 
-## Project structure
+
